@@ -15,8 +15,7 @@ Kiểm tra trạng thái UFW:
 sudo ufw status verbose
 ```
 
-**Đầu ra lệnh ufw status (Vui lòng chạy lệnh trên server và dán text output vào đây):**
-[ImgEx]
+*Lưu ý: Vì thẻ visa của em bị khoá nên không thể tạo droplet để kiểm tra lệnh này.*
 
 ### 2. Cấu hình DigitalOcean Cloud Firewall (Lớp Hạ tầng)
 1. Truy cập vào DigitalOcean Console -> Networking -> Firewalls -> Nhấn **Create Firewall**.
@@ -25,5 +24,4 @@ sudo ufw status verbose
    - HTTP (Port 80) từ mọi nguồn.
 3. Gán Droplet của bài học vào Cloud Firewall này.
 
-**Ảnh chụp màn hình thiết lập Cloud Firewall (Vui lòng chụp và dán vào đây):**
-[ImgEx]
+*Lưu ý: Vì thẻ visa của em bị khoá nên không thể tạo droplet để cấu hình tường lửa thật.*
